@@ -3,7 +3,7 @@
   "description":  "Coffee-Script's Make",
   "keywords":     ["coffeescript"],
   "author":       "Stéphane Alnet",
-  "version":      "1.6.3",
+  "version":      "0.1.0",
   "license":      "MIT",
   "engines":      {
     "node":       ">=0.8.0"
@@ -23,6 +23,6 @@
     "url": "git://github.com/shimaore/cake.git"
   },
   "dependencies": {
-    "coffee-script": "1.6.3"
+    "coffee-script": "latest"
   }
 }
