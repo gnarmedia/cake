@@ -1,8 +1,8 @@
 {
-  "name":         "coffee-script",
-  "description":  "Unfancy JavaScript",
-  "keywords":     ["javascript", "language", "coffeescript", "compiler"],
-  "author":       "Jeremy Ashkenas",
+  "name":         "cake",
+  "description":  "Coffee-Script's Make",
+  "keywords":     ["coffeescript"],
+  "author":       "Stéphane Alnet",
   "version":      "1.6.3",
   "license":      "MIT",
   "engines":      {
@@ -11,25 +11,18 @@
   "directories" : {
     "lib" : "./lib/coffee-script"
   },
-  "main" : "./lib/coffee-script/coffee-script",
   "bin":          {
-    "coffee":     "./bin/coffee",
     "cake":       "./bin/cake"
   },
   "scripts": {
     "test": "node ./bin/cake test"
   },
-  "homepage":     "http://coffeescript.org",
-  "bugs":         "https://github.com/jashkenas/coffee-script/issues",
+  "bugs":         "https://github.com/shimaore/cake/issues",
   "repository":   {
     "type": "git",
-    "url": "git://github.com/jashkenas/coffee-script.git"
-  },
-  "devDependencies": {
-    "uglify-js":  "~2.2",
-    "jison":      ">=0.2.0"
+    "url": "git://github.com/shimaore/cake.git"
   },
   "dependencies": {
-    "mkdirp": "~0.3.5"
+    "coffee-script": "1.6.3"
   }
 }
